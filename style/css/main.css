@@ -1,0 +1,111 @@
+html {
+  font-family: "Avenir Next", sans-serif;
+  animation: bg 10s infinite;
+  background: #e6ded1;
+  color: white; }
+
+@keyframes bg {
+  0% {
+    background: #e6ded1; }
+  25% {
+    background: #d7e0e4; }
+  50% {
+    background: #fbdad3; }
+  75% {
+    background: #ebcd9b; }
+  100% {
+    background: #e6ded1; } }
+header {
+  height: 100vh;
+  align-items: baseline;
+  background: linear-gradient(100deg, #ebcd9b 40%, #e6ded1 0%); }
+  header .title {
+    justify-content: flex-start;
+    display: flex;
+    align-items: baseline; }
+    header .title a {
+      text-decoration: none;
+      color: white; }
+      header .title a:hover {
+        color: grey; }
+    header .title h1 {
+      display: inline;
+      font-weight: 250;
+      font-size: 2em;
+      margin-left: 7%;
+      margin-top: 25vh;
+      display: inline-flex;
+      letter-spacing: .2em; }
+    header .title h2 {
+      display: inline-flex;
+      font-weight: 100;
+      font-size: 1.5em;
+      margin-left: 7px; }
+  header .clickable {
+    margin-top: 25vh;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 7%; }
+    header .clickable a {
+      text-decoration: none;
+      color: white; }
+      header .clickable a:hover {
+        color: grey; }
+    header .clickable h2 {
+      padding-right: 15px; }
+  header #top {
+    position: fixed;
+    text-align: center;
+    top: 85vh;
+    left: 90vw;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    color: white;
+    line-height: 10px; }
+
+body h2 {
+  font-weight: 200; }
+body #pJump {
+  padding-top: 25vh;
+  padding-left: 7px;
+  font-size: 2em;
+  letter-spacing: .25em; }
+
+#projects {
+  display: flex;
+  height: 100vh; }
+  #projects section {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 7px;
+    background-color: rgba(255, 255, 255, 0.3); }
+    #projects section a {
+      text-decoration: none;
+      color: white; }
+      #projects section a:hover {
+        color: grey; }
+    #projects section h2 {
+      text-align: center;
+      padding-top: 7px;
+      font-weight: 800;
+      font-size: 4em; }
+    #projects section h3 {
+      font-weight: 300;
+      padding-left: 15px; }
+    #projects section ul li {
+      list-style: none; }
+
+#showing1, #showing2 {
+  display: block;
+  width: 200px;
+  height: 200px; }
+
+#hidden1, #hidden2 {
+  display: none;
+  width: 200px;
+  height: 200px; }
+
+/*# sourceMappingURL=main.css.map */
