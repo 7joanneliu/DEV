@@ -1,2 +1,0 @@
-# maize
-A maze.
