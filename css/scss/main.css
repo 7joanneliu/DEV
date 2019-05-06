@@ -1,0 +1,32 @@
+body {
+  background: #def5e9;
+  color: tan;
+  font-size: 1.5em; }
+
+#projects{
+  display: flex;
+}
+
+section p {
+  background: white;
+  border: 2px solid tan;
+  padding: 15px;
+  border-radius: 25px; }
+
+nav {
+  text-align: center; }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    background: white;
+    border: 2px solid tan;
+    padding: 15px;
+    border-radius: 25px; }
+    nav ul li a {
+      font-family: monospace;
+      font-size: 4em;
+      text-decoration: none;
+      color: #98d4b3; }
+
+/*# sourceMappingURL=main.css.map */

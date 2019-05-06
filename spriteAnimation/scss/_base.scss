@@ -1,0 +1,14 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.gma{
+  width: 767px;
+  height: 1024px;
+  background: url('../img/icon-se67d6160cb.png') left center yellow;
+  animation: play 3s steps(16) infinite
+}
+
+@keyframes play{
+  100% {background-position: -12272px;}
+}

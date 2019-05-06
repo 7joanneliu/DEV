@@ -1,0 +1,254 @@
+body{
+  background: black;
+  color: white;
+  font-family: Avenir;
+}
+
+h1{
+  font-weight: light;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+h2{
+  font-size: 2em;
+  position: absolute;
+  /* right: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+img{
+  height: 300px;
+}
+
+.parallax{
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100vh 0; /*adds padding to force scrollbars*/
+}
+
+.parallax-fore{
+  transform: translateZ(0px);
+  top: 10%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore2{
+  transform: translateZ(-1px) scale(2);
+  left: 60%;
+  top: 40%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore3{
+  transform: translateZ(1) scale(2);
+  top: 70%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore4{
+  transform: translateZ(0px) scale();
+  top: 75%;
+  left: 60%
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore5{
+  transform: translateZ(0) scale();
+  top: 140%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore6{
+  transform: translateZ(-1px) scale(2);
+  left: 60%;
+  top: 140%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore7{
+  transform: translateZ(-1px) scale(2);
+  /* left: 60%; */
+  top: 210%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore8{
+  transform: translateZ(0) scale();
+  top: 160%;
+  left: 60%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore9{
+  transform: translateZ(-1px) scale(2);
+  left: 80%;
+  top: 250%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore10{
+  transform: translateZ(-1px) scale(2);
+  left: 20%;
+  top: 305%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore11{
+  transform: translateZ(0) scale();
+  top:350%;
+  left: 35%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore12{
+  transform: translateZ(0) scale();
+  top: 300%;
+  /* left: 60%; */
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore13{
+  transform: translateZ(-1px) scale(2);
+  left: 90%;
+  top: 350%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore14{
+  transform: translateZ(-1px) scale(2);
+  /* left: 80%; */
+  top: 400%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore15{
+  transform: translateZ(0) scale();
+  top:430%;
+  left: 45%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore16{
+  transform: translateZ(0) scale();
+  top: 450%;
+  /* left: 60%; */
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore17{
+  transform: translateZ(0) scale();
+  top: 500%;
+  /* left: 10%; */
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore18{
+  transform: translateZ(-1px) scale(2);
+  left: 30%;
+  top: 550%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore19{
+  transform: translateZ(0) scale();
+  top: 520%;
+  left: 60%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore20{
+  transform: translateZ(-1px) scale(2);
+  left: 80%;
+  top: 580%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore21{
+  transform: translateZ(-1px) scale(2);
+  /* left: 80%; */
+  top: 650%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore22{
+  transform: translateZ(0) scale();
+  top:670%;
+  left: 35%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore23{
+  transform: translateZ(0) scale();
+  top: 655%;
+  /* left: 60%; */
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore24{
+  transform: translateZ(-1px) scale(2);
+  left: 70%;
+  top: 700%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore25{
+  transform: translateZ(-1px) scale(2);
+  /* left: 80%; */
+  top: 800%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore26{
+  transform: translateZ(0) scale();
+  top:755%;
+  left: 45%;
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-fore27{
+  transform: translateZ(0) scale();
+  top: 777%;
+  /* left: 60%; */
+  /* transform: translateZ(-1px) scale(2); */
+}
+
+.parallax-back{
+  transform: translateZ(-1px);
+  /* transform: translateZ(-2px) scale(3); */
+}
+
+.parallax-back2{
+  transform: translateZ(-1px);
+  top: 10%;
+  right: 70%;
+  justify-content: center;
+  /* transform: translateZ(-2px) scale(3); */
+}
+
+.parallax-back3{
+  left: 10%;
+  transform: translateZ(-1px);
+  top: 800%;
+  /* transform: translateZ(-2px) scale(3); */
+}
+
+.parallax-back4{
+  left: 10%;
+  transform: translateZ(-1px);
+  top: 10%;
+  right: 70%;
+  justify-content: center;
+  bottom: z0%;
+  /* transform: translateZ(-2px) scale(3); */
+}

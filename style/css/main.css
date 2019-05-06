@@ -10,15 +10,15 @@ html {
   25% {
     background: #d7e0e4; }
   50% {
-    background: #fbdad3; }
+    background: #efe5de; }
   75% {
-    background: #ebcd9b; }
+    background: #e8cea1; }
   100% {
     background: #e6ded1; } }
 header {
   height: 100vh;
   align-items: baseline;
-  background: linear-gradient(100deg, #ebcd9b 40%, #e6ded1 0%); }
+  background: linear-gradient(100deg, #e8cea1 40%, #e6ded1 0%); }
   header .title {
     justify-content: flex-start;
     display: flex;
@@ -63,7 +63,8 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
     color: white;
-    line-height: 10px; }
+    line-height: 10px;
+    display: none; }
 
 body h2 {
   font-weight: 200; }
@@ -75,12 +76,14 @@ body #pJump {
 
 #projects {
   display: flex;
-  height: 100vh; }
+  align-content: flex-end;
+  width: 100%; }
   #projects section {
     width: 200px;
     height: 200px;
-    display: flex;
+    display: block;
     margin: 7px;
+    break-after: always;
     background-color: rgba(255, 255, 255, 0.3); }
     #projects section a {
       text-decoration: none;
@@ -98,12 +101,12 @@ body #pJump {
     #projects section ul li {
       list-style: none; }
 
-#showing1, #showing2 {
+#showing1, #showing2, #showing3, #showing4, #showing5, #showing6, #showing7, #showing8 {
   display: block;
   width: 200px;
   height: 200px; }
 
-#hidden1, #hidden2 {
+#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8 {
   display: none;
   width: 200px;
   height: 200px; }

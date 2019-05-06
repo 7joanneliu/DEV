@@ -1,0 +1,32 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+html{
+  cursor: url(img/wand.gif);
+}
+
+body{
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 2em;
+  color: pink;
+  text-align: center;
+  background-color: black;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+    a{
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+    }
+
+    span{
+      position: absolute;
+      top: -9999em;
+      left: -9999em;
+    }
+}

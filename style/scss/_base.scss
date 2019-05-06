@@ -1,23 +1,23 @@
 html {
   font-family: "Avenir Next", sans-serif;
   animation: bg 10s infinite;
-  background: $bgColor;
+  background: $greyTan;
   color: white;
 }
 
 @keyframes bg
 {
-  0%   {background: $bgColor;}
+  0%   {background: $greyTan;}
   25%  {background: $slateBlue;}
-  50%  {background: $rosePink;}
-  75%  {background: $bgLightColor;}
-  100% {background: $bgColor;}
+  50%  {background: $petalPinkLight;}
+  75%  {background: $lightLeather;}
+  100% {background: $greyTan;}
 }
 
 header {
   height: 100vh;
   align-items: baseline;
-  background: linear-gradient(100deg, $bgLightColor 40%, $bgColor 0%);
+  background: linear-gradient(100deg, $lightLeather 40%, $greyTan 0%);
   .title{
     justify-content: flex-start;
     display: flex;
@@ -66,6 +66,7 @@ header {
     text-decoration: none;
     color: white;
     line-height: 10px;
+    display: none;
   }
 }//header
 
@@ -83,12 +84,15 @@ body {
 
 #projects{
   display: flex;
-  height: 100vh;
+  align-content: flex-end;
+  // height: 100vh;
+  width: 100%;
   section {
     width: 200px;
     height: 200px;
-    display: flex;
+    display: block;
     margin: 7px;
+    break-after: always;
     // border-radius: 7px;
     background-color: rgba(256, 256, 256, .3);
     a {
@@ -115,12 +119,12 @@ body {
   }//section
 }//projects
 
-#showing1, #showing2{
+#showing1, #showing2, #showing3, #showing4, #showing5, #showing6, #showing7, #showing8, #showing9{
   display: block;
   width: 200px;
   height: 200px;
 }
-#hidden1, #hidden2{
+#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8, #hidden9{
   display: none;
   width: 200px;
   height: 200px;
